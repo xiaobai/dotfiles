@@ -1,0 +1,8 @@
+filetype plugin indent on
+syntax on
+set encoding=utf-8
+set nocp
+colorscheme base16-monokai
+
+
+" Learning vimscript yo
