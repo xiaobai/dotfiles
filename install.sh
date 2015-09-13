@@ -8,6 +8,7 @@ DOTFILES_DIR="$(pwd)"
 
 ln -svf $DOTFILES_DIR/shell/bashrc ~/.bashrc
 ln -svf $DOTFILES_DIR/shell/bash_profile ~/.bash_profile
+ln -svf $DOTFILES_DIR/shell/alias ~/.alias
 
 # urxvt/
 

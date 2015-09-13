@@ -7,8 +7,8 @@
 
 # Colors!
 source ~/.bashcolors/base16-monokai.dark.sh
+source ~/.alias
 
-alias ls='ls --color=auto --group-directories-first'
 #PS1='[\u@\h \W]\$ '
 PS1='\[\e[0;31m\][\u@\h \W]\$\[\e[0m\] '
 
