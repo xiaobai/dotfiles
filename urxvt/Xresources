@@ -63,3 +63,43 @@ urxvt*color18:		base01
 urxvt*color19:		base02
 urxvt*color20:		base04
 urxvt*color21:		base06
+
+
+! -- Colorscheme 2 --
+! Taken from logicalnotlogical on github
+
+!urxvt*foreground:	#e8dfd6
+!urxvt*background:	#0c1115
+!urxvt*cursorColor:	#e8dfd6
+!
+!! black
+!urxvt*color0:		#032c36
+!urxvt*color8:		#065f73
+!
+!! red
+!urxvt*color1:		#c2454e
+!urxvt*color9:		#ef5847
+!
+!! green
+!urxvt*color2:		#7cbf9e
+!urxvt*color10:		#a2d9b1
+!
+!! yellow
+!urxvt*color3:		#8a7a63
+!urxvt*color11:		#beb090
+!
+!! blue
+!urxvt*color4:		#2e3340
+!urxvt*color12:		#61778d
+!
+!! magenta
+!urxvt*color5:		#ff5879
+!urxvt*color13:		#ff99a1
+!
+!! cyan
+!urxvt*color6:		#44b5b1
+!urxvt*color14:		#9ed9d8
+!
+!! white
+!urxvt*color7:		#f2f1b9
+!urxvt*color15:		#f7f7c9
