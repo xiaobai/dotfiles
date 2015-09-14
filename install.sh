@@ -16,15 +16,26 @@ ln -svf $DOTFILES_DIR/urxvt/Xresources ~/.Xresources
 
 # colors/
 
-ln -svf $DOTFILES_DIR/colors ~/.bashcolors
+ln -svfn $DOTFILES_DIR/colors ~/.bashcolors
 
 # vim/
 
+if [[ ! -d ~/.vim ]]; then
+    mkdir ~/.vim
+fi
+
 ln -svf $DOTFILES_DIR/vim/vimrc ~/.vimrc
-ln -svf $DOTFILES_DIR/vim/ftplugin ~/.vim/ftplugin
-ln -svf $DOTFILES_DIR/vim/colors ~/.vim/colors
+ln -svfn $DOTFILES_DIR/vim/ftplugin ~/.vim/
+ln -svfn $DOTFILES_DIR/vim/colors ~/.vim/
 
 # awesome/
 
-ln -svf $DOTFILES_DIR/awesome/rc.lua ~/.config/awesome/rc.lua
-ln -svf $DOTFILES_DIR/awesome/themes ~/.config/awesome/themes
+if [[ $(uname -s) == "Linux" ]]; then
+
+    if [[ ! -d ~/.config/awesome ]]; then
+        mkdir -p ~/.config
+    fi
+
+    ln -svfn $DOTFILES_DIR/awesome/rc.lua ~/.config/awesome/rc.lua
+    ln -svfn $DOTFILES_DIR/awesome/themes ~/.config/awesome/
+fi
