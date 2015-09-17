@@ -1,8 +1,7 @@
-! -- options --
 ! -- FONT --
-urxvt*font:		xft:Source Code Pro:style=Regular:size=10
-urxvt*boldFont:		xft:Source Code Pro:style=Bold:size=10
-urxvt*letterSpace:	-1
+urxvt*font:		xft:Tewi:medium:size=10
+urxvt*boldFont:		xft:Tewi:medium:style=Bold:size=10
+urxvt*letterSpace:	0
 
 ! -- WINDOW --
 urxvt*scrollBar:	false
@@ -13,10 +12,14 @@ urxvt*internalborder:	1
 urxvt*cursorBlink:	true
 urxvt*cursorUnderline:	true
 
+! -- MISC --
+urxvt*iso14755:		false
+urxvt*saveLines:	65535
+
 ! -- Colors --
 ! -- Base16 Monokai --
 
-#define base00 #272822
+#define base00 #000000
 #define base01 #383830
 #define base02 #49483e
 #define base03 #75715e
@@ -24,9 +27,9 @@ urxvt*cursorUnderline:	true
 #define base05 #f8f8f2
 #define base06 #f5f4f1
 #define base07 #f9f8f5
-#define base08 #f92672
+#define base08 #f93026
 #define base09 #fd971f
-#define base0A #f4bf75
+#define base0A #f9ee98
 #define base0B #a6e22e
 #define base0C #a1efe4
 #define base0D #66d9ef
@@ -66,11 +69,11 @@ urxvt*color21:		base06
 
 
 ! -- Colorscheme 2 --
-! Taken from logicalnotlogical on github
-
-!urxvt*foreground:	#e8dfd6
-!urxvt*background:	#0c1115
-!urxvt*cursorColor:	#e8dfd6
+! experimental
+!
+!urxvt*foreground:	#d8d8d8
+!urxvt*background:	#151515
+!urxvt*cursorColor:	#d8d8d8
 !
 !! black
 !urxvt*color0:		#032c36
@@ -81,8 +84,8 @@ urxvt*color21:		base06
 !urxvt*color9:		#ef5847
 !
 !! green
-!urxvt*color2:		#7cbf9e
-!urxvt*color10:		#a2d9b1
+!urxvt*color2:		#a6e22e
+!urxvt*color10:		#a6e22e
 !
 !! yellow
 !urxvt*color3:		#8a7a63
