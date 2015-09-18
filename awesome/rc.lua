@@ -38,7 +38,8 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(awful.util.getdir("config") .. "/themes/default/theme.lua")
+-- Need to make this configurable later
+beautiful.init(awful.util.getdir("config") .. "/themes/YCYL/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
