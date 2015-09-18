@@ -10,7 +10,7 @@ source ~/.bashcolors/custom-color.sh
 source ~/.alias
 
 #PS1='[\u@\h \W]\$ '
-PS1='\[\e[0;31m\][\u@\h \W]\$\[\e[0m\] '
+PS1='\[\e[0;32m\][\u@\h \[\e[1;35m\]\W\[\e[0;32m\]]\$\[\e[0m\] '
 
 # ------- CUSTOM BIN ---------
 if [[ ! -d ~/bin ]]; then
