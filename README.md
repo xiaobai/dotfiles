@@ -2,7 +2,7 @@
 
 These are my doot files. You are free to use any of my dotfiles as well as modify them to your liking, but you do so at your own risk.
 
-**DISCLAIMER:** My dot files can and WILL change whenever I feel like it. Don't expect for the changes to react nicely on your system!
+**DISCLAIMER:** My dot files can and WILL change whenever I feel like it. Installing these can and will replace your current configuration. Don't expect for the changes to react nicely on your system!
 
 ## Installation
 
