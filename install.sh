@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Create symbolic links to where the dotfiles need to be
 
