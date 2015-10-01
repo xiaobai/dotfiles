@@ -1,7 +1,16 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'bling/vim-airline'
+
+call vundle#end()
 filetype plugin indent on
+
 syntax on
 set encoding=utf-8
-set nocp
 set number
 colorscheme base16-monokai
 

@@ -4,6 +4,9 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 **DISCLAIMER:** My dot files can and WILL change whenever I feel like it. Installing these can and will replace your current configuration. Don't expect for the changes to react nicely on your system!
 
+## Dependencies
+- Vundle
+
 ## Installation
 
 This is easy. First, clone the repository somewhere on your machine:
