@@ -1,6 +1,6 @@
 ! -- FONT --
-urxvt*font:		xft:Tewi:medium:size=10
-urxvt*boldFont:		xft:Tewi:medium:style=Bold:size=10
+urxvt*font:		xft:Proggy:medium:size=9
+urxvt*boldFont:		xft:Progy:medium:style=Bold:size=9
 urxvt*letterSpace:	0
 
 ! -- WINDOW --
