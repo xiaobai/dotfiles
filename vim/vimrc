@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'bling/vim-airline'
+Plugin 'helino/vim-nasm'
 
 call vundle#end()
 filetype plugin indent on
