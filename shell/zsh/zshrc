@@ -57,7 +57,8 @@ export PATH="~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-alias ls="ls --color=auto --group-directories-first"
+
+source ~/.alias
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
