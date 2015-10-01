@@ -3,7 +3,7 @@ syntax on
 set encoding=utf-8
 set nocp
 set number
-colorscheme base16-default
+colorscheme base16-monokai
 
 
 " Learning vimscript yo

@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # Colors!
-source ~/.bashcolors/base16-default.dark.sh
+source ~/.bashcolors/base16-monokai.dark.sh
 source ~/.alias
 
 #PS1='[\u@\h \W]\$ '
