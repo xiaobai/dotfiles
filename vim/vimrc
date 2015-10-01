@@ -4,7 +4,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'bling/vim-airline'
 Plugin 'helino/vim-nasm'
 
 call vundle#end()
@@ -13,7 +12,7 @@ filetype plugin indent on
 syntax on
 set encoding=utf-8
 set number
+set showcmd
 colorscheme base16-monokai
-
 
 " Learning vimscript yo
