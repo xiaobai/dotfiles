@@ -4,6 +4,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Plugin 'bling/vim-airline'
 Plugin 'helino/vim-nasm'
 
 call vundle#end()
@@ -14,5 +15,8 @@ set encoding=utf-8
 set number
 set showcmd
 colorscheme base16-monokai
+
+" For vim-airline
+" let g:airline_powerline_fonts = 1
 
 " Learning vimscript yo

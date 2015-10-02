@@ -1,7 +1,7 @@
 ! -- FONT --
-urxvt*font:		xft:Proggy:medium:size=9
-urxvt*boldFont:		xft:Progy:medium:style=Bold:size=9
-urxvt*letterSpace:	0
+urxvt*font:		xft:Hack:medium:size=9
+urxvt*boldFont:		xft:hack:medium:style=Bold:size=9
+urxvt*letterSpace:	-2
 
 ! -- WINDOW --
 urxvt*scrollBar:	false
