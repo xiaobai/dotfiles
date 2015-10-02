@@ -6,12 +6,12 @@
 WHICH_OS="$(uname -s)"
 
 # OS X aliases
-if [ $WHICH_OS = "Darwin" ]; then
+if [[ $WHICH_OS == "Darwin" ]]; then
     alias ls="gls --color=auto --group-directories-first"
     alias ln="gln"
 fi
 
 # Linux aliases
-if [ $WHICH_OS = "Linux" ]; then
+if [[ $WHICH_OS == "Linux" ]]; then
     alias ls="ls --color=auto --group-directories-first"
 fi
