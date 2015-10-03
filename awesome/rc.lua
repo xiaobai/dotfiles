@@ -84,7 +84,7 @@ end
 tags = {}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ 1, 2, 3, 4, 5 }, s, layouts[1])
+    tags[s] = awful.tag({ "irc", "code", "school", "www", "etc" }, s, layouts[1])
 end
 -- }}}
 
@@ -111,7 +111,7 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 
 -- {{{ Wibox
 -- Create a textclock widget
-mytextclock = awful.widget.textclock()
+mytextclock = awful.widget.textclock("%a %b %d, %H:%M:%S", 1)
 
 -- Create a wibox for each screen and add it
 mywibox = {}

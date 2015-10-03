@@ -1,10 +1,10 @@
 ---------------------------
--- Default awesome theme --
+-- Your Computer Loves You! awesome theme --
 ---------------------------
 
 theme = {}
 
-theme.font          = "Tewi 8"
+theme.font          = "lemon 7"
 
 theme.bg_normal     = "#222222"
 theme.bg_focus      = "#535d6c"
