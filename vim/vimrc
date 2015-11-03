@@ -16,5 +16,3 @@ set showcmd
 set ruler
 set backspace=2
 colorscheme base16-monokai
-
-match ErrorMsg '\s\+$'
