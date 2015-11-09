@@ -1,1 +1,4 @@
-Back up existing dotfiles so you don't just replace things without consideration of what exists.
+Further revise Awesome theme. Consider using submodules to make Awesome even better.
+Consider not using Awesome anymore, maybe switching to i3?
+Adding in files for fcitx configuration.
+Add a bootstrapping script to install everything on a clean install of arch/osx
