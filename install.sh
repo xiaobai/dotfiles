@@ -35,15 +35,15 @@ if [[ $(uname -s) == "Linux" ]]; then
 
     # awesome/
     if [[ ! -d ~/.config/awesome ]]; then
-        mkdir -p ~/.config
+        mkdir -p ~/.config/awesome
     fi
 
     ln -svfn $DOTFILES_DIR/awesome/rc.lua ~/.config/awesome/rc.lua
+    ln -svfn $DOTFILES_DIR/awesome/themes ~/.config/awesome/
 
     # urxvt/
 
     ln -svf $DOTFILES_DIR/urxvt/Xresources ~/.Xresources
-    ln -svfn $DOTFILES_DIR/awesome/themes ~/.config/awesome/
 fi
 
 # OS X Systems only!
