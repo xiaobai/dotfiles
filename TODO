@@ -2,3 +2,4 @@ Further revise Awesome theme. Consider using submodules to make Awesome even bet
 Consider not using Awesome anymore, maybe switching to i3?
 Adding in files for fcitx configuration.
 Add a bootstrapping script to install everything on a clean install of arch/osx
+Fix messy vim ftplugins folder. Really, so many files are clones. make succinct
