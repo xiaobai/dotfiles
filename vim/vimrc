@@ -15,4 +15,7 @@ set number
 set showcmd
 set ruler
 set backspace=2
+
+" Only 80 characters per line, please
+set colorcolumn=81
 colorscheme base16-monokai
