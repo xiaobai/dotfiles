@@ -4,18 +4,18 @@
 
 theme = {}
 
-theme.font              = "lemon 8"
+theme.font              = "Tamsyn 10.5"
 
-theme.bg_normal         = "#000000"
-theme.bg_focus          = "#000000"
+theme.bg_normal         = "#242424"
+theme.bg_focus          = "#242424"
 theme.bg_urgent         = "#ff0000"
-theme.bg_minimize       = "#444444"
+-- theme.bg_minimize       = "#444444"
 theme.bg_systray        = theme.bg_normal
 
-theme.fg_normal         = "#aaaaaa"
-theme.fg_focus          = "#ffffff"
-theme.fg_urgent         = "#ffffff"
-theme.fg_minimize       = "#ffffff"
+theme.fg_normal         = "#9E9E9E"
+theme.fg_focus          = "#EBEBFF"
+theme.fg_urgent         = "#000000"
+-- theme.fg_minimize       = "#ffffff"
 
 theme.border_width      = 1
 theme.border_normal     = "#000000"
