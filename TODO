@@ -1,4 +1,13 @@
-Further revise Awesome theme. Consider using submodules to make Awesome even better.
-Consider not using Awesome anymore, maybe switching to i3?
-Adding in files for fcitx configuration.
-Fix messy vim ftplugins folder. Really, so many files are clones. make succinct
+i3:
+- Get i3 super riced out with colors n shit
+
+Vim:
+- ftplugs folder is messy. Fix pls.
+- Get Airline/powerline working.
+
+Colors:
+- Pick a color theme to match new wallpaper (New York).
+
+Misc:
+- Make install scripts check for appropriate fonts
+- Getting fcitx set up immediately on Linux using install script

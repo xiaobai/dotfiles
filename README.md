@@ -7,6 +7,7 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 ## Dependencies
 - Vundle
 - oh-my-zsh
+- Powerline fonts (powerline/fonts)
 
 ## Installation
 

@@ -1,7 +1,10 @@
 ! -- FONT --
-urxvt*font:		xft:Hack:medium:size=9
-urxvt*boldFont:		xft:Hack:medium:style=Bold:size=9
-urxvt*letterSpace:	-2
+Xft.antialias:		true
+Xft.dpi:		96
+
+urxvt*font:		xft:Hack:size=10:antialias=true:style=Regular
+urxvt*boldFont:		xft:Hack:style=Bold:size=10:antialias=true:style=Regular
+urxvt*letterSpace:	0
 
 ! -- WINDOW --
 urxvt*scrollBar:	false
