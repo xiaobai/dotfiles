@@ -1,6 +1,6 @@
 ! -- FONT --
 urxvt*font:		xft:Hack:medium:size=9
-urxvt*boldFont:		xft:hack:medium:style=Bold:size=9
+urxvt*boldFont:		xft:Hack:medium:style=Bold:size=9
 urxvt*letterSpace:	-2
 
 ! -- WINDOW --
