@@ -1,14 +1,17 @@
 set nocompatible
 filetype off
 
+" Vundle stuff
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'helino/vim-nasm'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
 
+" Nice defaults 
 syntax on
 set encoding=utf-8
 set number
@@ -21,3 +24,8 @@ set colorcolumn=81
 
 " Colorscheme for now
 colorscheme base16-monokai
+
+" Airline stuff
+set laststatus=2
+let g:airline_powerline_fonts=1
+let g:airline_theme="dark"
