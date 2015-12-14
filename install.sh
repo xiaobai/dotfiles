@@ -46,15 +46,6 @@ ln -svfn $DOTFILES_DIR/wallpapers ~/.wallpapers
 
 if [[ $(uname -s) == "Linux" ]]; then
 
-    # awesome/
-
-    if [[ ! -d ~/.config/awesome ]]; then
-        mkdir -p ~/.config/awesome
-    fi
-
-    ln -svfn $DOTFILES_DIR/awesome/rc.lua ~/.config/awesome/rc.lua
-    ln -svfn $DOTFILES_DIR/awesome/themes ~/.config/awesome/
-
     # i3/
 
     if [[ ! -d ~/.config/i3 ]]; then
