@@ -1,11 +1,15 @@
 i3:
 - Get i3 super riced out with colors n shit
+- Work on i3bar configuration (look into i3status)
+- Customize i3lock settings
 
 Vim:
 - ftplugs folder is messy. Fix pls.
 
 Colors:
-- Pick a color theme to match new wallpaper (New York).
+- Pick a color theme to match new wallpaper (Dark Souls).
+- Once colors are picked, make all necessary configuration files and themes.
+	* (vim, shell, urxvt, iterm2, i3)
 
 Misc:
 - Make install scripts check for appropriate fonts

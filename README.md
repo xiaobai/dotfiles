@@ -27,7 +27,12 @@ cd dootFiles/
 
 and run install.sh:
 ```
-source install.sh
+./install.sh
 ```
 
 The dotfiles should be symbolically linked to the right places, and should work out of the box if you are using the appropriate software.
+
+## Notes
+- Powerline fonts can be found on github (powerline/fonts.git)
+- Installs oh-my-zsh and Vundle for you, if they are not already present.
+- Need to install i3, urxvt, feh, etc. by yourself.
