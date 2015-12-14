@@ -37,6 +37,10 @@ if [[ ! -d ~/.vim/bundle ]]; then
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
 
+# wallpapers/
+
+ln -svfn $DOTFILES_DIR/wallpapers ~/.wallpapers
+
 
 # GNU/Linux systems only!
 
