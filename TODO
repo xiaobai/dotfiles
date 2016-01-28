@@ -12,5 +12,5 @@ Colors:
 	* (vim, shell, urxvt, iterm2, i3)
 
 Misc:
-- Make install scripts check for appropriate fonts
+- Make install scripts check for appropriate fonts (Hack and Tamsyn, Droid Sans)
 - Getting fcitx set up immediately on Linux using install script
