@@ -11,6 +11,9 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 - zsh (oh-my-zsh through install.sh)
 - feh
 
+- iTerm2 (OSX only)
+- homebrew (OSX only)
+
 ## Fonts
 - Hack
 - Tamsyn
@@ -38,4 +41,4 @@ The dotfiles should be symbolically linked to the right places, and should work 
 ## Notes
 - Powerline fonts can be found on github (powerline/fonts.git)
 - Installs oh-my-zsh and Vundle for you, if they are not already present.
-- Need to install i3, urxvt, feh, etc. by yourself.
+- Install script should have option to install all the software for you using your package manager (coming soon!)
