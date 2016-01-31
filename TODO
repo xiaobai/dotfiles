@@ -3,14 +3,26 @@ i3:
 - Work on i3bar configuration (look into i3status)
 - Customize i3lock settings
 
-Vim:
-- ftplugs folder is messy. Fix pls.
-
 Colors:
-- Pick a color theme to match new wallpaper (Dark Souls).
+- Pick a color theme to match new wallpaper (Dark Souls or other).
 - Once colors are picked, make all necessary configuration files and themes.
 	* (vim, shell, urxvt, iterm2, i3)
 
 Misc:
-- Make install scripts check for appropriate fonts (Hack and Tamsyn, Droid Sans)
-- Getting fcitx set up immediately on Linux using install script
+- Add flag to install script to install the things below (used for boostraping new system)
+
+Installation automation (Linux machines):
+- i3
+- vim
+- urxvt
+- Hack (font)
+- Tamsyn (font)
+- Google fonts
+- fcitx + libpinyin
+- feh
+
+Installation automation (OSX machines):
+- iterm2
+- vim
+- homebrew
+- Hack (font)

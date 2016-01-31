@@ -4,14 +4,17 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 **DISCLAIMER:** My dot files can and WILL change whenever I feel like it. Installing these can and will replace your current configuration. Don't expect for the changes to react nicely on your system!
 
-## Dependencies
-- Vundle
-- oh-my-zsh
-- feh (Setting wallpaper on Linux distros)
+## Things you need to install
+- i3
+- urxvt
+- Vim (Vundle through install.sh)
+- zsh (oh-my-zsh through install.sh)
+- feh
 
 ## Fonts
 - Hack
 - Tamsyn
+- Droid Sans
 
 ## Installation
 
