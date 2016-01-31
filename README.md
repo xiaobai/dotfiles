@@ -4,15 +4,18 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 **DISCLAIMER:** My dot files can and WILL change whenever I feel like it. Installing these can and will replace your current configuration. Don't expect for the changes to react nicely on your system!
 
-## Things you need to install
+## Things you need to install (Linux)
 - i3
+- vim (Vundle installed automagically through install.sh)
 - urxvt
-- Vim (Vundle through install.sh)
 - zsh (oh-my-zsh through install.sh)
+- fcitx + libpinyin
 - feh
 
-- iTerm2 (OSX only)
-- homebrew (OSX only)
+## Things you need to install (OSX)
+- iTerm2
+- vim
+- homebrew
 
 ## Fonts
 - Hack
@@ -41,4 +44,3 @@ The dotfiles should be symbolically linked to the right places, and should work 
 ## Notes
 - Powerline fonts can be found on github (powerline/fonts.git)
 - Installs oh-my-zsh and Vundle for you, if they are not already present.
-- Install script should have option to install all the software for you using your package manager (coming soon!)
