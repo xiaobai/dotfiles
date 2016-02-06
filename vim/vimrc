@@ -11,7 +11,7 @@ Plugin 'bling/vim-airline'
 call vundle#end()
 filetype plugin indent on
 
-" Nice defaults 
+" Nice defaults
 syntax on
 set encoding=utf-8
 set number
@@ -29,3 +29,11 @@ colorscheme base16-monokai
 set laststatus=2
 let g:airline_powerline_fonts=1
 let g:airline_theme="dark"
+
+" Editor settings
+setlocal tabstop=4
+setlocal shiftwidth=4
+setlocal softtabstop=4
+setlocal expandtab
+setlocal autoindent
+setlocal smarttab
