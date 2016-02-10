@@ -1,23 +1,28 @@
 ! -- FONT --
-Xft.antialias:		true
-Xft.dpi:		96
+Xft.antialias:          true
+Xft.autohint:           0
+Xft.dpi:                96
+Xft.hinting:            true
+Xft.hintstyle:          hintfull
+Xft.lcdfilter:          lcddefault
+!Xft.rgba:               rgb
 
-urxvt*font:		xft:Hack:size=10:antialias=true:style=Regular
-urxvt*boldFont:		xft:Hack:style=Bold:size=10:antialias=true:style=Regular
-urxvt*letterSpace:	0
+urxvt*font:		        xft:Hack:size=10:style=Regular
+urxvt*boldFont:		    xft:Hack:style=Bold:size=10:style=Regular
+urxvt*letterSpace:	    0
 
 ! -- WINDOW --
-urxvt*scrollBar:	false
-urxvt*geometry:		95x20
+urxvt*scrollBar:	    false
+urxvt*geometry:		    95x20
 urxvt*internalborder:	1
 
 ! -- CURSOR --
-urxvt*cursorBlink:	true
+urxvt*cursorBlink:	    true
 urxvt*cursorUnderline:	true
 
 ! -- MISC --
-urxvt*iso14755:		false
-urxvt*saveLines:	65535
+urxvt*iso14755:		    false
+urxvt*saveLines:	    65535
 
 ! -- Colors --
 ! -- Base16 Monokai --
