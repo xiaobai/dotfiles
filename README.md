@@ -11,6 +11,7 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 - zsh (oh-my-zsh through install.sh)
 - fcitx + libpinyin
 - feh
+- Rofi
 
 ## Things you need to install (OSX)
 - iTerm2
@@ -19,7 +20,6 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 ## Fonts
 - Hack
-- Tamsyn
 - Droid Sans
 
 ## Installation
@@ -44,3 +44,4 @@ The dotfiles should be symbolically linked to the right places, and should work 
 ## Notes
 - Powerline fonts can be found on github (powerline/fonts.git)
 - Installs oh-my-zsh and Vundle for you, if they are not already present.
+- To fully get i3 up and running, read i3notes.md
