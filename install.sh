@@ -48,7 +48,12 @@ if [[ $(uname -s) == "Linux" ]]; then
         mkdir -p ~/.config/i3
     fi
 
+    if [[ ! -d ~/.config/i3blocks ]]; then
+        mkdir -p ~/.config/i3blocks
+    fi
+
     ln -svfn $DOTFILES_DIR/i3/config ~/.config/i3/config
+    ln -svfn $DOTFILES_DIR/i3/i3blocks ~/.config/i3blocks/config
 
 
     # urxvt/
