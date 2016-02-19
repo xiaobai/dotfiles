@@ -19,7 +19,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start rofi
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 50 -padding 100 -opacity "85" -bw 0 -bc $black -bg $black -fg $white -hlbg $black -hlfg $gray -font "Droid Sans 18"
+bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 45 -padding 40 -opacity "85" -bw 0 -bc $black -bg $black -fg $white -hlbg $black -hlfg $gray -font "Droid Sans 18"
 
 # change focus
 bindsym $mod+j focus left
