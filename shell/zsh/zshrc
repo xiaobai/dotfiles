@@ -1,6 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_CASK_OPTS='--appdir=/Applications'
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -62,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.alias
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
