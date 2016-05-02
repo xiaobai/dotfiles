@@ -20,9 +20,6 @@ set showcmd
 set ruler
 set backspace=2
 
-" Only 80 characters per line, please
-set colorcolumn=81
-
 " Colorscheme for now
 colorscheme base16-monokai
 
@@ -32,7 +29,7 @@ let g:airline_powerline_fonts=1
 let g:airline_theme="dark"
 
 " Editor settings
-set  tabstop=4
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
