@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'helino/vim-nasm'
 Plugin 'bling/vim-airline'
 Plugin 'rust-lang/rust.vim'
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 filetype plugin indent on
