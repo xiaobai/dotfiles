@@ -18,6 +18,10 @@ if [[ ! -d ~/.oh-my-zsh ]]; then
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
+# tmux/
+
+ln -svf $DOTFILES_DIR/tmux/tmux.conf ~/.tmux.conf
+
 # vim/
 
 if [[ ! -d ~/.vim ]]; then

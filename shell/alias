@@ -9,6 +9,7 @@ WHICH_OS="$(uname -s)"
 if [[ $WHICH_OS == "Darwin" ]]; then
     alias ls="gls --color=auto --group-directories-first"
     alias ln="gln"
+    alias tmux="TERM=screen-256color-bce tmux"
 fi
 
 # Linux aliases
