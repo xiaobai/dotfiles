@@ -5,10 +5,14 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'helino/vim-nasm'
+Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Plugin 'rust-lang/rust.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+
+" Language plugins
+Plugin 'helino/vim-nasm'
+Plugin 'rust-lang/rust.vim'
+Plugin 'vim-scripts/VimClojure'
 
 call vundle#end()
 filetype plugin indent on
@@ -28,6 +32,16 @@ colorscheme base16-monokai
 set laststatus=2
 let g:airline_powerline_fonts=1
 let g:airline_theme="dark"
+
+" Syntastic stuff
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Editor settings
 set tabstop=4
