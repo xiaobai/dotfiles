@@ -24,7 +24,9 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 ## Installation
 
-This is easy. First, clone the repository somewhere on your machine:
+First and foremost, please make sure you have all the dependencies installed.
+
+Installation is easy. First, clone the repository somewhere on your machine:
 ```
 git clone git@github.com:xiaobai/dotfiles.git dootFiles
 ```
@@ -40,6 +42,10 @@ and run install.sh:
 ```
 
 The dotfiles should be symbolically linked to the right places, and should work out of the box if you are using the appropriate software.
+
+If you are on OS X, please insert the correct homebrew api key into your .zshrc file.
+
+IRC Clients must be configured manually. This is a preference.
 
 ## Notes
 - Powerline fonts can be found on github (powerline/fonts.git)
