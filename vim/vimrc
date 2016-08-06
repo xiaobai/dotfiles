@@ -13,6 +13,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'helino/vim-nasm'
 Plugin 'rust-lang/rust.vim'
 Plugin 'vim-scripts/VimClojure'
+Plugin 'tfnico/vim-gradle'
 
 call vundle#end()
 filetype plugin indent on
