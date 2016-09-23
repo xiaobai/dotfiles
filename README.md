@@ -19,7 +19,7 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 - homebrew
 
 ## Fonts
-- Hack
+- Hack (Can be installed through homebrew on OS X)
 - Droid Sans
 
 ## Installation
