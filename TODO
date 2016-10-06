@@ -7,3 +7,9 @@ Colors:
 - Pick a color theme to match new wallpaper (Dark Souls or other).
 - Once colors are picked, make all necessary configuration files and themes.
 	* (vim, shell, urxvt, iterm2, i3)
+
+README:
+- finish rewriting me :)
+
+install.sh:
+- Rewrite me too!

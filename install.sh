@@ -68,5 +68,6 @@ if [[ $(uname -s) == "Darwin" ]]; then
     fi
 
     ln -svfn $DOTFILES_DIR/iterm2 ~/.iterm
+    ln -svfn $DOTFILES_DIR/tmux/tmux-osx ~/.tmux-osx
 
 fi

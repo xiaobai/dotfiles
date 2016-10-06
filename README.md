@@ -4,22 +4,33 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 **DISCLAIMER:** My dot files can and WILL change whenever I feel like it. Installing these can and will replace your current configuration. Don't expect for the changes to react nicely on your system!
 
+## How to bootstrap (OS X)
+1. Install Homebrew using Safari
+2. Install your preferred browser and other apps through homebrew caskroom.
+3. Install vim, git, tmux, zsh, and iTerm2.
+    * Maybe force myself to install Vundle and oh-my-zsh manually?
+4. Install Hack through homebrew/fonts
+    * ` brew tap caskroom/fonts `
+    * ` brew cask install font-hack `
+5. Clone this repository and run the installation script
+6. Change your shell to zsh and configure iTerm2
+7. Confirm that all necessary dependencies and software are installed
+8. Start programming!
+
+## How to bootstrap (Linux)
+Coming soon!!!!! For now, refer to the things you need to install on Linux
+
 ## Things you need to install (Linux)
-- i3
-- vim (Vundle installed automagically through install.sh)
+- vim
+- zsh
 - urxvt
-- zsh (oh-my-zsh through install.sh)
+- i3
 - fcitx + libpinyin
 - feh
 - Rofi
 
-## Things you need to install (OSX)
-- iTerm2
-- vim
-- homebrew
-
-## Fonts
-- Hack (Can be installed through homebrew on OS X)
+## Fonts I use and like
+- Hack
 - Droid Sans
 
 ## Installation
@@ -43,11 +54,9 @@ and run install.sh:
 
 The dotfiles should be symbolically linked to the right places, and should work out of the box if you are using the appropriate software.
 
-If you are on OS X, please insert the correct homebrew api key into your .zshrc file.
-
-IRC Clients must be configured manually. This is a preference.
-
 ## Notes
-- Powerline fonts can be found on github (powerline/fonts.git)
-- Installs oh-my-zsh and Vundle for you, if they are not already present.
-- To fully get i3 up and running, read i3notes.md
+- Configure IRC clients separately.
+- Installs oh-my-zsh and Vundle for you, if they are not already present. (TODO: Think about this one?)
+- Powerline fonts can be found on github (powerline/fonts.git) [Linux]
+- To fully get i3 up and running, read i3notes.md [Linux]
+- Please insert the correct homebrew api key into the .zshrc file [OSX]
