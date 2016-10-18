@@ -4,9 +4,8 @@ i3:
 - Customize i3lock settings
 
 Colors:
-- Pick a color theme to match new wallpaper (Dark Souls or other).
-- Once colors are picked, make all necessary configuration files and themes.
-	* (vim, shell, urxvt, iterm2, i3)
+    I'm rolling Monokai for now. Update urxvt and i3 to match on linux install.
+    Oh yeah, shell colors too, if necessary. I don't know yet.
 
 README:
 - finish rewriting me :)
