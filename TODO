@@ -5,10 +5,7 @@ i3:
 
 Colors:
     I'm rolling Monokai for now. Update urxvt and i3 to match on linux install.
-    Oh yeah, shell colors too, if necessary. I don't know yet.
-
-README:
-- finish rewriting me :)
+    Maybe try some things I've seen on unixporn on Linux? OSX is pretty comfy with Monokai.
 
 install.sh:
-- Rewrite me too!
+- Rewrite me!

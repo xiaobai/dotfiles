@@ -14,49 +14,23 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
     * ` brew cask install font-hack `
 5. Clone this repository and run the installation script
 6. Change your shell to zsh and configure iTerm2
-7. Confirm that all necessary dependencies and software are installed
-8. Start programming!
+7. Insert Homebrew API key into zshrc
+8. Confirm that all necessary dependencies and software are installed
+9. Start programming!
 
 ## How to bootstrap (Linux)
-Coming soon!!!!! For now, refer to the things you need to install on Linux
+1. Install preferred browser and other fun software through package manager.
+2. Install vim, zsh, urxvt, i3, fcitx+libpinyin, feh, Rofi, and the "essential development packages"
+3. Install necessary fonts (TODO: Hack or tewi? Google fonts for Droid Sans) through git repos or package managers
+4. Clone this repository and run the installation script
+5. Change shell to zsh and configure i3 properly (i3notes.txt)
+6. Confirm all necessary dependencies and software are installed
+7. Start programming!
 
-## Things you need to install (Linux)
-- vim
-- zsh
-- urxvt
-- i3
-- fcitx + libpinyin
-- feh
-- Rofi
-
-## Fonts I use and like
-- Hack
-- Droid Sans
-
-## Installation
-
-First and foremost, please make sure you have all the dependencies installed.
-
-Installation is easy. First, clone the repository somewhere on your machine:
-```
-git clone git@github.com:xiaobai/dotfiles.git dootFiles
-```
-
-`cd` into the directory:
-```
-cd dootFiles/
-```
-
-and run install.sh:
-```
-./install.sh
-```
-
-The dotfiles should be symbolically linked to the right places, and should work out of the box if you are using the appropriate software.
+Note: I haven't tested this yet... Will have to try it out and modify eventually.
 
 ## Notes
 - Configure IRC clients separately.
 - Installs oh-my-zsh and Vundle for you, if they are not already present. (TODO: Think about this one?)
 - Powerline fonts can be found on github (powerline/fonts.git) [Linux]
 - To fully get i3 up and running, read i3notes.md [Linux]
-- Please insert the correct homebrew api key into the .zshrc file [OSX]
