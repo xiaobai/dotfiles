@@ -1,0 +1,12 @@
+To change colorscheme
+
+OSX:
+    - Change vimrc
+    - Change zshrc
+    - Change iTerm2
+
+Linux:
+    - Change vimrc
+    - Change zshrc
+    - Change urxvt
+    - Possibly change i3
