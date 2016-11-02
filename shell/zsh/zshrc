@@ -61,6 +61,9 @@ export PATH="/usr/sbin:/sbin:/usr/local/bin:/bin:~/bin:/usr/local/sbin:/usr/bin:
 source $ZSH/oh-my-zsh.sh
 
 source ~/.alias
+if [[ $(uname -s) == "Darwin" ]]; then
+    source ~/.colors/base16-monokai.sh
+fi
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8

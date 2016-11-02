@@ -13,10 +13,9 @@ ln -svf $DOTFILES_DIR/shell/bash/bash_profile ~/.bash_profile
 
 # shell/zsh
 ln -svf $DOTFILES_DIR/shell/zsh/zshrc ~/.zshrc
-if [[ ! -d ~/.oh-my-zsh ]]; then
-    # Standard oh-my-zsh install line from htttps://ohmyz.sh
-    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-fi
+
+# shell/colors
+ln -svfn $DOTFILES_DIR/shell/colors/ ~/.colors
 
 # tmux/
 
@@ -31,11 +30,6 @@ fi
 ln -svf $DOTFILES_DIR/vim/vimrc ~/.vimrc
 ln -svfn $DOTFILES_DIR/vim/ftplugin ~/.vim/
 ln -svfn $DOTFILES_DIR/vim/colors ~/.vim/
-
-if [[ ! -d ~/.vim/bundle ]]; then
-    # If vundle is not installed, then install it
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-fi
 
 # GNU/Linux systems only!
 
@@ -63,11 +57,6 @@ fi
 # OS X Systems only!
 if [[ $(uname -s) == "Darwin" ]]; then
 
-    if [[ ! -d ~/.iterm ]]; then
-        mkdir ~/.iterm
-    fi
-
-    ln -svfn $DOTFILES_DIR/iterm2 ~/.iterm
     ln -svfn $DOTFILES_DIR/tmux/tmux-osx ~/.tmux-osx
 
 fi
