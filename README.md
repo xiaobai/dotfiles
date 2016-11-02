@@ -8,7 +8,8 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 1. Install Homebrew using Safari
 2. Install your preferred browser and other apps through homebrew caskroom.
 3. Install vim, git, tmux, zsh, and iTerm2.
-    * Maybe force myself to install Vundle and oh-my-zsh manually?
+    * Also install oh-my-zsh and Vundle manually.
+    * After installing Vundle, install vim plugins
 4. Install Hack through homebrew/fonts
     * ` brew tap caskroom/fonts `
     * ` brew cask install font-hack `
@@ -31,6 +32,5 @@ Note: I haven't tested this yet... Will have to try it out and modify eventually
 
 ## Notes
 - Configure IRC clients separately.
-- Installs oh-my-zsh and Vundle for you, if they are not already present. (TODO: Think about this one?)
 - Powerline fonts can be found on github (powerline/fonts.git) [Linux]
 - To fully get i3 up and running, read i3notes.md [Linux]
