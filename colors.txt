@@ -1,4 +1,5 @@
 To change colorscheme
+Note: OSX is probably best left to Monokai..
 
 OSX:
     - Change vimrc
