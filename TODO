@@ -3,13 +3,9 @@ i3:
 - Work on i3bar configuration (look into i3status)
 - Customize i3lock settings
 
-Colors:
-    I'm rolling Monokai for now. Update urxvt and i3 to match on linux install.
+Colors (Linux):
     Maybe try some things I've seen on unixporn on Linux? OSX is pretty comfy with Monokai.
-    To change linux colorscheme:
-        - Change i3 colors
-        - Change urxvt colors
-        - Change vim colorscheme (1 line in vimrc)
+    To change linux colorscheme, refer to colors.txt
 
 install.sh:
-- Rewrite me!
+- Rewrite me! (?)
