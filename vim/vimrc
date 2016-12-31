@@ -28,14 +28,6 @@ set ruler
 set backspace=2
 
 " Colorscheme for now
-let base16colorspace=256
-let s:uname = system("echo -n \"$(uname)\"")
-if !v:shell_error && s:uname =="Darwin"
-    " Do OSX things here
-    colorscheme base16-monokai
-elseif
-    " TODO: What colorscheme do I want to roll with on Linux?
-endif
 
 " Airline stuff
 set laststatus=2
