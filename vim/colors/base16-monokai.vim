@@ -161,6 +161,9 @@ call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("cOperator",   s:gui0C, "", s:cterm0C, "", "", "")
 call <sid>hi("cPreCondit",  s:gui0E, "", s:cterm0E, "", "", "")
 
+" Java highlighting
+call <sid>hi("javaOperator",         s:gui0D, "", s:cterm0D, "", "", "")
+
 " C# highlighting
 call <sid>hi("csClass",                 s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("csAttribute",             s:gui0A, "", s:cterm0A, "", "", "")
