@@ -28,6 +28,8 @@ set ruler
 set backspace=2
 
 " Colorscheme for now
+" set background=dark
+colorscheme hybrid
 
 " Airline stuff
 set laststatus=2
@@ -41,3 +43,4 @@ set softtabstop=4
 set expandtab
 set autoindent
 set smarttab
+
