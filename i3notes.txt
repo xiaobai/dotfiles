@@ -1,7 +1,0 @@
-To complete your i3 rice:
-- Install Font Awesome
-- Install Droid Sans and Hack fonts
-- Install Thunar
-- Install cool GTK theme (Arc is good)
-- Install Rofi
-- Install Compton

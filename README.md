@@ -30,6 +30,13 @@ These are my doot files. You are free to use any of my dotfiles as well as modif
 
 Note: I haven't tested this yet... Will have to try it out and modify eventually.
 
+## Completing i3 rice
+- Install Font Awesome
+- Install Droid Sans and Hack fonts
+- Install Thunar or cool file explorer
+- install nice GTK Theme
+- Instal Rofi and Compton
+
 ## Notes
 - Configure IRC clients separately.
 - Powerline fonts can be found on github (powerline/fonts.git) [Linux]
