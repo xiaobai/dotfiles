@@ -14,9 +14,6 @@ ln -svf $DOTFILES_DIR/shell/bash/bash_profile ~/.bash_profile
 # shell/zsh
 ln -svf $DOTFILES_DIR/shell/zsh/zshrc ~/.zshrc
 
-# shell/colors
-ln -svfn $DOTFILES_DIR/shell/colors/ ~/.colors
-
 # tmux/
 
 ln -svf $DOTFILES_DIR/tmux/tmux.conf ~/.tmux.conf
