@@ -9,9 +9,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'altercation/vim-colors-solarized'
 
 " Language plugins
-Plugin 'helino/vim-nasm'
 Plugin 'rust-lang/rust.vim'
 Plugin 'vim-scripts/VimClojure'
 Plugin 'tfnico/vim-gradle'
@@ -29,14 +29,12 @@ set backspace=2
 
 " Colorscheme for now
 set background=dark
-let g:hybrid_custom_term_colors = 1
-let g:hybrid_reduced_contrast = 1
-colorscheme hybrid
+colorscheme solarized
 
 " Airline stuff
 set laststatus=2
 let g:airline_powerline_fonts=1
-let g:airline_theme="hybridline"
+let g:airline_theme="solarized"
 
 " Editor settings
 set tabstop=4
