@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
-source $ZSH/oh-my-zsh.sh
 
 # Themes in: ~/.oh-my-zsh/themes/
 ZSH_THEME="gentoo"
@@ -14,6 +13,8 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# Make the above settings take place
+source $ZSH/oh-my-zsh.sh
 # User configuration
 # editor settings
 export EDITOR='vim'
