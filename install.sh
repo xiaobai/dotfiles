@@ -4,6 +4,9 @@
 
 DOTFILES_DIR="$(pwd)"
 
+# inputrc
+ln -svf $DOTFILES_DIR/inputrc ~/.inputrc
+
 # shell/
 ln -svf $DOTFILES_DIR/shell/alias ~/.alias
 

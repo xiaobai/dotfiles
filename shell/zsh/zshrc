@@ -15,7 +15,9 @@ plugins=(git)
 
 # Make the above settings take place
 source $ZSH/oh-my-zsh.sh
+
 # User configuration
+
 # editor settings
 export EDITOR='vim'
 export VISUAL='vim'
@@ -23,6 +25,10 @@ export VISUAL='vim'
 # Use vim keybindings to edit the command line
 bindkey -v
 bindkey '^R' history-incremental-search-backward
+
+# Save all the history
+HISTFILE=130000
+SAVEHIST=130000
 
 # Homebrew settings
 export HOMEBREW_NO_ANALYTICS=1
