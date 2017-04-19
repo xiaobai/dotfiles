@@ -29,12 +29,12 @@ set backspace=2
 
 " Colorscheme for now
 set background=dark
-colorscheme solarized
+colorscheme hybrid
 
 " Airline stuff
 set laststatus=2
 let g:airline_powerline_fonts=1
-let g:airline_theme="solarized"
+let g:airline_theme="dark"
 
 " Editor settings
 set tabstop=4
