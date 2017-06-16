@@ -36,6 +36,7 @@ export HOMEBREW_CASK_OPTS='--appdir=/Applications'
 
 # PATH things
 export PATH="/usr/sbin:/sbin:/usr/local/bin:/bin:~/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="$HOME/.cargo/bin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 # Load custom aliases
