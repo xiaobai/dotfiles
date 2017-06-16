@@ -1,3 +1,0 @@
-setlocal autoindent
-setlocal smarttab
-setlocal noexpandtab
