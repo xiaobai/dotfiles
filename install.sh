@@ -11,11 +11,11 @@ ln -svf $DOTFILES_DIR/inputrc ~/.inputrc
 ln -svf $DOTFILES_DIR/shell/alias ~/.alias
 
 # shell/bash
-ln -svf $DOTFILES_DIR/shell/bash/bashrc ~/.bashrc
-ln -svf $DOTFILES_DIR/shell/bash/bash_profile ~/.bash_profile
+ln -svf $DOTFILES_DIR/shell/bashrc ~/.bashrc
+ln -svf $DOTFILES_DIR/shell/bash_profile ~/.bash_profile
 
 # shell/zsh
-ln -svf $DOTFILES_DIR/shell/zsh/zshrc ~/.zshrc
+ln -svf $DOTFILES_DIR/shell/zshrc ~/.zshrc
 
 # tmux/
 
@@ -28,8 +28,6 @@ if [[ ! -d ~/.vim ]]; then
 fi
 
 ln -svf $DOTFILES_DIR/vim/vimrc ~/.vimrc
-ln -svfn $DOTFILES_DIR/vim/ftplugin ~/.vim/
-ln -svfn $DOTFILES_DIR/vim/colors ~/.vim/
 
 # GNU/Linux systems only!
 
@@ -52,11 +50,4 @@ if [[ $(uname -s) == "Linux" ]]; then
     # urxvt/
 
     ln -svf $DOTFILES_DIR/urxvt/Xresources ~/.Xresources
-fi
-
-# OS X Systems only!
-if [[ $(uname -s) == "Darwin" ]]; then
-
-    ln -svfn $DOTFILES_DIR/tmux/tmux-osx ~/.tmux-osx
-
 fi
