@@ -28,6 +28,7 @@ if [[ ! -d ~/.vim ]]; then
 fi
 
 ln -svf $DOTFILES_DIR/vim/vimrc ~/.vimrc
+ln -svfn $DOTFILES_DIR/vim/colors ~/.vim/
 
 # GNU/Linux systems only!
 
