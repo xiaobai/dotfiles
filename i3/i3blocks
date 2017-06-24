@@ -1,6 +1,6 @@
 [volume]
 label=:
-command=amixer get Headphone | grep -E -o '[0-9]{1,3}?%' | head -1
+command=amixer get Master | grep -E -o '[0-9]{1,3}?%' | head -1
 instance=Master
 interval=1
 signal=10

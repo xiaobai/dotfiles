@@ -147,9 +147,9 @@ exec_always feh --bg-scale ~/.wallpapers/DarkSouls.jpg
 new_window pixel 1
 
 # Volume controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q sset Headphone 2%+
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset Headphone 2%-
-bindsym XF86AudioMute exec --no-startup-id amixer -q sset Headphone toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec --no-startup-id amixer -D pulse sset Master toggle
 
 # Automatically open an image in floating mode
 for_window [class="feh"] floating enabler

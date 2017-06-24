@@ -9,7 +9,7 @@ Xft.lcdfilter:          lcddefault
 
 urxvt*font:		        xft:Hack:size=10:style=Regular
 urxvt*boldFont:		    xft:Hack:style=Bold:size=10:style=Regular
-urxvt*letterSpace:	    0
+urxvt*letterSpace:	    -1
 
 ! -- WINDOW --
 urxvt*scrollBar:	    false
