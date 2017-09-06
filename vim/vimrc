@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'rhysd/vim-clang-format'
 
 call vundle#end()
 
@@ -30,6 +31,9 @@ set showcmd
 set ruler
 set backspace=2
 
+" Leader key
+let mapleader=","
+
 " Formatting settings
 set tabstop=8
 set shiftwidth=2
@@ -39,6 +43,10 @@ set smarttab
 set autoindent
 set textwidth=80
 set linebreak
+
+" Clang formatting
+nnoremap <Leader>f :ClangFormat<cr>
+vnoremap <Leader>f :ClangFormat<cr>
 
 " Search settings
 set incsearch
