@@ -45,8 +45,8 @@ set textwidth=80
 set linebreak
 
 " Clang formatting
-nnoremap <Leader>f :ClangFormat<cr>
-vnoremap <Leader>f :ClangFormat<cr>
+autocmd Filetype c,cpp,objc nnoremap <buffer><Leader>f :ClangFormat<cr>
+autocmd FileType c,cpp,objc vnoremap <buffer><Leader>f :ClangFormat<CR>
 
 " Search settings
 set incsearch
