@@ -7,15 +7,8 @@ DOTFILES_DIR="$(pwd)"
 # inputrc
 ln -svf $DOTFILES_DIR/inputrc ~/.inputrc
 
-# shell/
-ln -svf $DOTFILES_DIR/shell/alias ~/.alias
-
-# shell/bash
-ln -svf $DOTFILES_DIR/shell/bashrc ~/.bashrc
-ln -svf $DOTFILES_DIR/shell/bash_profile ~/.bash_profile
-
 # shell/zsh
-ln -svf $DOTFILES_DIR/shell/zshrc ~/.zshrc
+ln -svf $DOTFILES_DIR/zshrc ~/.zshrc
 
 # tmux/
 ln -svf $DOTFILES_DIR/tmux/tmux.conf ~/.tmux.conf

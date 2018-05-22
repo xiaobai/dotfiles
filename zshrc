@@ -7,6 +7,10 @@ ZSH_THEME="gentoo"
 # oh_my_zsh options
 COMPLETION_WAITING_DOTS="true"
 
+# Save all the history
+HISTSIZE=130000
+SAVEHIST=130000
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -16,34 +20,17 @@ plugins=(git)
 # Make the above settings take place
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# editor settings
-export EDITOR='vim'
-export VISUAL='vim'
-
 # Use vim keybindings to edit the command line
 bindkey -v
 bindkey '^R' history-incremental-search-backward
 
-# Save all the history
-HISTSIZE=130000
-SAVEHIST=130000
-
-# Homebrew settings
+export EDITOR='vim'
+export VISUAL='vim'
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_CASK_OPTS='--appdir=/Applications'
-
-# PATH things
-export PATH="${PATH}:/usr/sbin:/sbin:/usr/local/bin:/bin:~/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
-export PATH="$HOME/.cargo/bin:$PATH"
-export MANPATH="/usr/local/man:$MANPATH"
-
-# Load custom aliases
-source ~/.alias
-
-# Set locale
 export LANG=en_US.UTF-8
-
-# Compilation flags
 export ARCHFLAGS="-arch x86_64"
+
+if [[ "$(uname -s)" == "Darwin" ]]; then
+  alias tmux="TERM=screen-256color-bce tmux"
+fi
