@@ -26,23 +26,3 @@ if [[ ! -d ~/.vim ]]; then
 fi
 ln -svf $DOTFILES_DIR/vim/vimrc ~/.vimrc
 ln -svfn $DOTFILES_DIR/vim/colors ~/.vim/
-
-# GNU/Linux systems only!
-if [[ $(uname -s) == "Linux" ]]; then
-
-    # i3/
-    if [[ ! -d ~/.config/i3 ]]; then
-        mkdir -p ~/.config/i3
-    fi
-
-    if [[ ! -d ~/.config/i3blocks ]]; then
-        mkdir -p ~/.config/i3blocks
-    fi
-
-    ln -svfn $DOTFILES_DIR/i3/config ~/.config/i3/config
-    ln -svfn $DOTFILES_DIR/i3/i3blocks ~/.config/i3blocks/config
-
-
-    # urxvt/
-    ln -svf $DOTFILES_DIR/urxvt/Xresources ~/.Xresources
-fi
