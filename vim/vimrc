@@ -44,6 +44,12 @@ set autoindent
 set textwidth=80
 set linebreak
 
+" Copy and paste to/from system clipboard
+nnoremap <Leader>Y "*Y
+vnoremap <Leader>y "*y
+nnoremap <Leader>P "*P
+vnoremap <Leader>p "*p
+
 " Clang formatting
 autocmd Filetype c,cpp,objc nnoremap <buffer><Leader>f :ClangFormat<cr>
 autocmd FileType c,cpp,objc vnoremap <buffer><Leader>f :ClangFormat<CR>
